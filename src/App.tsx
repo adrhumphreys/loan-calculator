@@ -3,7 +3,7 @@ import { Input } from "./Input";
 import PMT from "./pmt";
 
 function App() {
-  const rates = [3, 3.5, 4, 5, 5.9, 6, 6.5, 8, 10];
+  const rates = [5, 6, 6.5, 7, 7.5, 8, 10];
   const terms = [15, 25, 30];
 
   const [housePrice, setHousePrice] = useState(800_000);
